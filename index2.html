@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TodoInput</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h3>TodoInput</h3>
+
+  <input type="text" id="taskInput" placeholder="New Todo">
+  <button id="addBtn">Add new task</button>
+  <p id="errorMessage"></p>
+
+  <h3>Todo List</h3>
+
+  <div class="tabs">
+    <button data-filter="all">All</button>
+    <button data-filter="done">Done</button>
+    <button data-filter="todo">Todo</button>
+  </div>
+
+  <ul id="taskList"></ul>
+
+  <div class="bottom-buttons">
+    <button id="clearDone">Clear Done Tasks</button>
+    <button id="deleteAll">Delete All Tasks</button>
+  </div>
+
+</div>
+
+<!-- Popup -->
+<div id="popup">
+  <div class="popup-box">
+    <p id="popupText"></p>
+    <button id="confirmBtn">Yes</button>
+    <button id="cancelBtn">No</button>
+  </div>
+</div>
+
+<script src="script2.js"></script>
+</body>
+</html>

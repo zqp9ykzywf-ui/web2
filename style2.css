@@ -1,0 +1,96 @@
+body {
+  font-family: Arial;
+  background: #ffffff;
+}
+
+.app {
+  width: 700px;
+  margin: 30px auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#addBtn {
+  width: 100%;
+  padding: 10px;
+  background: #1496b3;
+  color: white;
+  border: none;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.tabs button {
+  width: 32%;
+  padding: 8px;
+  background: #1496b3;
+  color: white;
+  border: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background: #eee;
+  margin-bottom: 5px;
+}
+
+li.done span {
+  text-decoration: line-through;
+}
+
+.actions button {
+  margin-left: 5px;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+#clearDone {
+  background: #f08080;
+}
+
+#deleteAll {
+  background: #e74c3c;
+  color: white;
+}
+
+#errorMessage {
+  color: red;
+}
+
+/* Popup */
+#popup {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(149, 0, 5, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
